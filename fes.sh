@@ -8,6 +8,8 @@
 # $ ./sh/fes
 # ...launching
 
+set -e
+
 if [[ -z `which flow` ]]; then
 	echo "No 'flow' binary found. Try: npm i -g flow"
 	exit 1
